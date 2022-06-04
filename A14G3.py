@@ -2,19 +2,7 @@ from ing2i import ing2i #Encargada de recivir y retornar valor numerico
 from ing2s import ing2s #Encargada de recivir y retornar valor string
 
 #1- función suma, retorna la suma de 2 parámetros.
-def suma(numero1, numero2):
-    return(numero1 + numero2)
-
-if ing2i(3, 4):
-    suma(3,4)
-
 #2- función resta, retorna la resta de 2 parámetros.
-def resta(numero1, numero2):
-    return(numero1 - numero2)
-
-if ing2i(3, 4):
-    resta(3,4)
-
 #3- función producto, retorna el producto de 2 parámetros.
 #4- función cociente, retorna el cociente de 2 parámetros.
 #5- función módulo, retorna el módulo de 2 parámetros.
