@@ -2,40 +2,39 @@ from ing2i import ing2i #Encargada de recivir y retornar valor numerico
 from ing2s import ing2s #Encargada de recivir y retornar valor string
 
 #1- función suma, retorna la suma de 2 parámetros.
-def suma(numero1, numero2):
-    return(numero1 + numero2)
-
-if ing2i(3, 4):
-    suma(3,4)
+from suma import suma
 
 #2- función resta, retorna la resta de 2 parámetros.
-def resta(numero1, numero2):
-    return(numero1 - numero2)
-
-if ing2i(3, 4):
-    resta(3,4)
+from resta import resta
 
 #3- función producto, retorna el producto de 2 parámetros.
-from producto.py import producto(a, b) 
+from producto import producto
 
 #4- función cociente, retorna el cociente de 2 parámetros.
-from cociente.py import cociente(a, b)
+from cociente import cociente
 
 #5- función módulo, retorna el módulo de 2 parámetros.
-from módulo.py import módulo(a, b)
+from módulo import módulo
 
 #6- función potencia, retorna la potencia del primero elevado al segundo parámetros.
-from potencia.py import potencia(a, b)
+from potencia import potencia
 
 #7- función radicación, retorna la raiz del primero respecto del segundo parámetros.
-from radicación.py import radicación(a, b)
+from radicación import radicación
 
 #9- función p1, retorna el producto de los 2 primero más el 3er parámetros, usando las funciones anteriores.
+from p1_a import p1_a
+
 #10- función p1, retorna la suma de los 2 primero por el 3er parámetros, usando las funciones anteriores.
+from p1_b import p1_b
+
 #11- función p1, retorna la resta de los 2 primero por el 3er parámetros, usando las funciones anteriores.
+from p1_c import p1_c
 
 #NO USAR NUMPY#
 #12- función genrnd que retorna una lista con 50 números aleatorios.
+from genrnd import genrnd
+
 #13- función que devuelva la suma de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
 #14- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
 #15- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.

@@ -1,7 +1,2 @@
-def suma(a, b):
-    return (a + b)
-
-a = int(input('Ingrese primer numero: '))
-b = int(input('Ingrese segundo numero: '))
-
-print(f'La suma de {a} y {b} es {suma(a, b)}')
+def suma(numero1, numero2):
+    return(int(numero1) + int(numero2))
