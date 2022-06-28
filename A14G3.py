@@ -2,12 +2,34 @@ from ing2i import ing2i #Encargada de recivir y retornar valor numerico
 from ing2s import ing2s #Encargada de recivir y retornar valor string
 
 #1- función suma, retorna la suma de 2 parámetros.
+def suma(numero1, numero2):
+    return(numero1 + numero2)
+
+if ing2i(3, 4):
+    suma(3,4)
+
 #2- función resta, retorna la resta de 2 parámetros.
-from producto.py import producto(a, b) #3- función producto, retorna el producto de 2 parámetros.
-from cociente.py import cociente(a, b) #4- función cociente, retorna el cociente de 2 parámetros.
-from módulo.py import módulo(a, b) #5- función módulo, retorna el módulo de 2 parámetros.
-from potencia.py import potencia(a, b) #6- función potencia, retorna la potencia del primero elevado al segundo parámetros.
-from radicación.py import radicación(a, b) #7- función radicación, retorna la raiz del primero respecto del segundo parámetros.
+def resta(numero1, numero2):
+    return(numero1 - numero2)
+
+if ing2i(3, 4):
+    resta(3,4)
+
+#3- función producto, retorna el producto de 2 parámetros.
+from producto.py import producto(a, b) 
+
+#4- función cociente, retorna el cociente de 2 parámetros.
+from cociente.py import cociente(a, b)
+
+#5- función módulo, retorna el módulo de 2 parámetros.
+from módulo.py import módulo(a, b)
+
+#6- función potencia, retorna la potencia del primero elevado al segundo parámetros.
+from potencia.py import potencia(a, b)
+
+#7- función radicación, retorna la raiz del primero respecto del segundo parámetros.
+from radicación.py import radicación(a, b)
+
 #9- función p1, retorna el producto de los 2 primero más el 3er parámetros, usando las funciones anteriores.
 #10- función p1, retorna la suma de los 2 primero por el 3er parámetros, usando las funciones anteriores.
 #11- función p1, retorna la resta de los 2 primero por el 3er parámetros, usando las funciones anteriores.
