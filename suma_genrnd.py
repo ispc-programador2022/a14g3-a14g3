@@ -5,9 +5,10 @@ from suma import suma
 
 #13- función que devuelva la suma de las combinaciones posibles de los números generados 
 # por la función genrnd tomados de a dos.
-def suma_genrnd():
-    x = []
-    lista = genrnd()
+def suma_genrnd(lista=[]):
+    if len(lista)==0:
+        x = []
+        lista = genrnd()
     for i in lista:
         for j in lista:
             if (i != j):

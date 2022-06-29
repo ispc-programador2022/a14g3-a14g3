@@ -38,14 +38,24 @@ from genrnd import genrnd
 #13- función que devuelva la suma de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
 from suma_genrnd import suma_genrnd
 
-#14- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
+#14 / 15- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
+from producto_genrnd import producto_genrnd
 
-#15- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
 #16- función que calcule la media del vector obtenido en genrnd.
+from media_vector import media_vector
+
 #17- función que calcule la mediana del vector obtenido en genrnd.
+from mediana_media import mediana_media
+
 #18- función que calcule el rango del vector obtenido en genrnd.
+from rango_vector import rango_vector
+
 #19- función que calcule la varianza del vector obtenido en genrnd.
+from varianza_vector import varianza_vector
+
 #20- función que calcule devuelva el mínimo del vector obtenido en genrnd.
+
+
 #21- función que calcule devuelva el máximo del vector obtenido en genrnd.
 #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios.
 #23- función que calcule la media del vector obtenido en genrnd.
