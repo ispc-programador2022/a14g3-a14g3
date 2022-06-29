@@ -36,7 +36,10 @@ from p1_c import p1_c
 from genrnd import genrnd
 
 #13- función que devuelva la suma de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
+from suma_genrnd import suma_genrnd
+
 #14- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
+
 #15- función que devuelva el producto de las combinaciones posibles de los números generados por la función genrnd tomados de a dos.
 #16- función que calcule la media del vector obtenido en genrnd.
 #17- función que calcule la mediana del vector obtenido en genrnd.

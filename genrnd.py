@@ -4,6 +4,5 @@ import random
 def genrnd():
     lista = []
     for i in range(50):
-        #Se escoge un numero suficientemente grande para aumentar relacion de aletoriedad
-        lista.append(random.randint(0, 100000)) 
+        lista.append(random.randint(0, 100)) 
     return lista
