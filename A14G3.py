@@ -54,7 +54,7 @@ from rango_vector import rango_vector
 from varianza_vector import varianza_vector
 
 #20- función que calcule devuelva el mínimo del vector obtenido en genrnd.
-
+from minimo_vector import minimo_vector
 
 #21- función que calcule devuelva el máximo del vector obtenido en genrnd.
 #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios.

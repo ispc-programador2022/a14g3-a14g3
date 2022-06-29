@@ -3,10 +3,10 @@ from media_vector import media_vector
 #Se importa funcion encargada de la creacion de la lista con numeros aleatorios
 from genrnd import genrnd
 
-lista = genrnd() #Se asigna el valor a la lista
-media = media_vector(lista) #Se asigna el valor a la media
-
-def varianza_vector():
+def varianza_vector(lista=[], media=[]):
+    if len(lista) == 0:
+        lista = genrnd() #Se asigna el valor a la lista
+        media = media_vector(lista) #Se asigna el valor a la media
     #Se crea que contiene cada uno de los valores de la lista menos la media de la misma
     valores_menos_media = list(map(lambda a: a - media, lista))
     #Se devuele la varianza (suma de valores menos su media dividido la cantidad de valores)

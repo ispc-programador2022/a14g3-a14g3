@@ -1,5 +1,6 @@
-#Se importa mosulo random
+#Se importa modulo random
 import random
+
 #12- función genrnd que retorna una lista con 50 números aleatorios.
 def genrnd():
     lista = [] #Se inicializa la lista que se retornara
