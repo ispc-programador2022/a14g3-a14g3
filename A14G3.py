@@ -57,12 +57,52 @@ from varianza_vector import varianza_vector
 from minimo_vector import minimo_vector
 
 #21- función que calcule devuelva el máximo del vector obtenido en genrnd.
+from maximo_vector import maximo_vector
+
 #22- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios.
+from genrnd2 import genrnd2
+
 #23- función que calcule la media del vector obtenido en genrnd.
+from media_del_vector import media_del_vector
+
 #24- función que calcule la mediana del vector obtenido en genrnd.
+from mediana_del_vector import mediana_del_vector
+
 #25- función que calcule el rango del vector obtenido en genrnd.
+from rango_del_vector import rango_del_vector
+
 #26- función que calcule la varianza del vector obtenido en genrnd.
+from varianza_del_vector import varianza_del_vector
+
 #27- función que calcule devuelva el mínimo del vector obtenido en genrnd.
-#28- función que calcule devuelva el máximo del vector obtenido en genrnd.
-#29- medir el tiempo de ejecución del 16 al 21
-#30- medir el tiempo de ejecución del 22 al 28
+from minimo_del_vector import minimo_del_vector
+
+#278- función que calcule devuelva el máximo del vector obtenido en genrnd.
+from maximo_del_vector import maximo_del_vector
+
+#29- medir el tiempo de ejecución del 16 al 21 y #30- medir el tiempo de ejecución del 22 al 28
+def tiempo_ejecucion():
+    #Primer bloque --utilizando genrnd
+    comienzo = datetime.today()
+    lista = genrnd()
+    mediana_media(lista)
+    rango_vector(lista)
+    varianza_vector(lista)
+    minimo_vector(lista)
+    maximo_vector(lista)
+    fin = datetime.today()
+    primer_bloque = fin-comienzo
+    
+    #Segundo bloque --utilizando genrnd2
+    comienzo=datetime.today()
+    lista=genrnd2()
+    mediana_del_vector(lista)
+    rango_del_vector(lista)
+    varianza_del_vector(lista)
+    minimo_del_vector(lista)
+    maximo_del_vector(lista)
+    fin = datetime.today()
+    segundo_bloque = fin-comienzo
+    print(f"Primer bloque: {primer_bloque} \nSegundo bloque: {segundo_bloque} \nDiferencia: {segundo_bloque-primer_bloque}")
+
+
